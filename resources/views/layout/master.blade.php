@@ -180,7 +180,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('activity*') ? 'active' : '' }}"
                                 data-bs-toggle="collapse" href="#collapseActivity" role="button"
@@ -209,7 +209,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="my-2">
                         <hr class="dropdown-divider" />
                     </li>
@@ -296,7 +296,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('source*') ? 'active' : '' }}"
                                 data-bs-toggle="collapse" href="#collapseSource" role="button"
@@ -334,7 +334,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('org*') ? 'active' : '' }}"
@@ -374,7 +374,7 @@
                             </div>
                         </div>
                     </li>
-                    @auth('admin')
+                    <!-- @auth('admin')
                         <li>
                             <p>
                                 <a class="nav-link px-3 sidebar-link {{ request()->is('account-manage*') ? 'active' : '' }}"
@@ -406,7 +406,7 @@
                                 </div>
                             </div>
                         </li>
-                    @endauth
+                    @endauth -->
                     <li class="my-2">
                         <hr class="dropdown-divider" />
                     </li>
