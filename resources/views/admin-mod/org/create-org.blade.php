@@ -5,7 +5,7 @@
 @section('content')
     <div class="row mt-4">
         <div class="col-sm-5">
-            <h4>Create a New Organization</h4>
+            <h4>Create a New Department</h4>
             <form class="mt-4" action="{{ url('/org/create') }}" method="POST">
                 @csrf
                 <div class="form-group">

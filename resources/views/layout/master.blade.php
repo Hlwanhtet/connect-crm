@@ -102,7 +102,7 @@
                             <span>Dashbord</span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('contact*') ? 'active' : '' }}"
                                 data-bs-toggle="collapse" href="#collapseContact" role="button"
@@ -140,7 +140,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('lead*') ? 'active' : '' }}"
@@ -149,7 +149,7 @@
                                 <span class="me-2">
                                     <i class="bi bi-people-fill"></i>
                                 </span>
-                                <span>Leads</span>
+                                <span>Patients</span>
                                 <span class="right-icon ms-auto">
                                     <i class="bi bi-chevron-down"></i>
                                 </span>
@@ -218,7 +218,7 @@
                             Resources
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('business*') ? 'active' : '' }}"
                                 data-bs-toggle="collapse" href="#collapseBusiness" role="button"
@@ -256,7 +256,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li>
                         <p>
                             <a class="nav-link px-3 sidebar-link {{ request()->is('product*') ? 'active' : '' }}"
@@ -343,7 +343,7 @@
                                 <span class="me-2">
                                     <i class="bi bi-building"></i>
                                 </span>
-                                <span>Organizations</span>
+                                <span>Departments</span>
                                 <span class="right-icon ms-auto">
                                     <i class="bi bi-chevron-down"></i>
                                 </span>

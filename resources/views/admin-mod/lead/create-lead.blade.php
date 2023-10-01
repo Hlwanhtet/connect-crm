@@ -5,7 +5,7 @@
 @section('content')
     <div class="row mt-4">
         <div class="col-sm-5">
-            <h4 class="text-center">Create a New Lead</h4>
+            <h4 class="text-center">Create a New Patient</h4>
             <form class="mt-4" action="{{ url('/lead/create') }}" method="POST">
                 @csrf
                 <div class="form-group">

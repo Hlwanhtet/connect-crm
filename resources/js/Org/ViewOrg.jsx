@@ -18,7 +18,7 @@ const ViewOrg = () => {
     const confirmDelete = (slug, name) => {
         if (
             window.confirm(
-                `Are you sure about deleting the organization, ${name}?`
+                `Are you sure about deleting the Department, ${name}?`
             )
         ) {
             cusaxios
@@ -86,7 +86,7 @@ const ViewOrg = () => {
     const deleteSelected = () => {
         if (
             window.confirm(
-                "Are you sure about deleting the selected organizations?"
+                "Are you sure about deleting the selected Departments?"
             )
         ) {
             const fData = new FormData();
@@ -149,7 +149,7 @@ const ViewOrg = () => {
             ) : (
                 <div className="row mt-4">
                     <h3 className="text-center mb-3">
-                        <i className="bi bi-building mx-2"></i>Organizations
+                        <i className="bi bi-building mx-2"></i>Departments
                     </h3>
                     <div className="col-sm-2">
                         <div className="form-group">
@@ -229,7 +229,7 @@ const ViewOrg = () => {
                                 }}
                                 type="search"
                                 className="form-control rounded"
-                                placeholder="Organization's name"
+                                placeholder="Department's name"
                                 aria-label="Search"
                                 aria-describedby="search-addon"
                                 id="input-search"
@@ -288,7 +288,7 @@ const ViewOrg = () => {
                                         <tr>
                                             <td></td>
                                             <td colSpan={5}>
-                                                No organization found!
+                                                No Department found!
                                             </td>
                                         </tr>
                                     ) : (

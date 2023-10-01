@@ -60,7 +60,7 @@ class LeadController extends Controller
             return response()->json([
                 "success" => false,
                 "status" => 500,
-                "data" => "Lead not found!",
+                "data" => "Patient not found!",
             ]);
         }
 
@@ -104,7 +104,7 @@ class LeadController extends Controller
                 return response()->json([
                     "success" => false,
                     "status" => 500,
-                    "data" => "Lead not found!",
+                    "data" => "Patient not found!",
                 ]);
             }
 
@@ -123,7 +123,7 @@ class LeadController extends Controller
         return response()->json([
             "success" => true,
             "status" => 200,
-            "data" => "The selected leads has been deleted!",
+            "data" => "The selected Patients has been deleted!",
         ]);
     }
 }

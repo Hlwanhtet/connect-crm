@@ -59,7 +59,7 @@ class OrganizationController extends Controller
             return response()->json([
                 "success" => false,
                 "status" => 500,
-                "data" => "Organization not found!",
+                "data" => "Department not found!",
             ]);
         }
         $org_name = $org->name;
@@ -93,7 +93,7 @@ class OrganizationController extends Controller
                 return response()->json([
                     "success" => false,
                     "status" => 500,
-                    "data" => "Organization not found!",
+                    "data" => "Department not found!",
                 ]);
             }
             $org->delete();
@@ -102,7 +102,7 @@ class OrganizationController extends Controller
         return response()->json([
             "success" => true,
             "status" => 200,
-            "data" => "The selected organizations has been deleted!",
+            "data" => "The selected Department has been deleted!",
         ]);
     }
 }

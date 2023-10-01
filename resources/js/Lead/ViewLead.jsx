@@ -26,7 +26,7 @@ const ViewLead = () => {
 
     // confirmation of deleting lead
     const confirmDelete = (slug, name) => {
-        if (window.confirm(`Are you sure about deleting the lead, ${name}?`)) {
+        if (window.confirm(`Are you sure about deleting the Patient, ${name}?`)) {
             cusaxios
                 .post(`/lead/delete`, { lead_slug: slug })
                 .then(({ data }) => {
@@ -94,7 +94,7 @@ const ViewLead = () => {
 
     // delete selected
     const deleteSelected = () => {
-        if (window.confirm("Are you sure about deleting the selected leads?")) {
+        if (window.confirm("Are you sure about deleting the selected Patients?")) {
             const fData = new FormData();
             fData.append("lead_slugs", JSON.stringify(select));
 
@@ -166,7 +166,7 @@ const ViewLead = () => {
             ) : (
                 <div className="row mt-4">
                     <h3 className="text-center mb-3">
-                        <i className="bi bi-people-fill mx-2"></i>Leads
+                        <i className="bi bi-people-fill mx-2"></i>Patients
                     </h3>
                     <div className="col-sm-2 my-2">
                         <div className="form-group">
@@ -321,7 +321,7 @@ const ViewLead = () => {
                                     }}
                                     type="search"
                                     className="form-control rounded"
-                                    placeholder="Lead's name"
+                                    placeholder="Patient's name"
                                     aria-label="Search"
                                     aria-describedby="search-addon"
                                     id="input-search"
